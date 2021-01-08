@@ -1,0 +1,17 @@
+.navigation_tab{
+	width: 75%;
+	margin: auto;
+	color: #000000;
+	background-color: bisque;
+	font-size: 20px;
+	display: flex;
+}
+
+nav{
+	margin: auto;
+	display: flex;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	/* padding-left: -100px; */
+}

@@ -1,0 +1,23 @@
+.adding_resume{
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #4580DE;
+	width: 75%;
+	margin: auto;
+	height: 80px;
+	text-align: center;
+	display: flex;
+	margin-top: 50px;
+	border-radius: 5px;
+	/* padding-top: 30px; */
+}
+
+.adding_resume .btn{
+	color: #4580DE;
+	font-size: 40px;
+}
+/* .comment{
+	color:bisque;	
+	padding-top: 20px;
+	padding-left: 20px; 
+} */

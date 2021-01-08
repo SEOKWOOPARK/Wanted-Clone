@@ -1,0 +1,72 @@
+[
+	{
+		"index": 1,
+		"type": "기술력과 사업성을 검증받은 '아기 유니콘 기업'",
+		"description": "다양한 분야에서 기술력과 사업성을 인정받은 기업을 소개합니다.",
+		"companies":[
+			{
+				"companyIndex": 1,
+				"companyName": "3i corporation",
+				"role": "HR Manager",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			},
+			{
+				"companyIndex": 2,
+				"companyName": "패브릭타임",
+				"role": "백엔드 엔지니어",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			},
+			{
+				"companyIndex": 3,
+				"companyName": "운송관리 담당자",
+				"role": "운송관리 담당자",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			},
+			{
+				"companyIndex": 4,
+				"companyName": "호두랩스",
+				"role": "CX Operator",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			}
+		]
+	},
+	{
+		"index": 2,
+		"type": "투자는 곧 채용",
+		"description": "100억 이상 투자 받은 고성장 기업을 소개합니다.",
+		"companies":[
+			{
+				"companyIndex": 1,
+				"companyName": "힐링페이퍼(강남언니)",
+				"role": "제품 Product Owner",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 2,000,000원"
+			},
+			{
+				"companyIndex": 2,
+				"companyName": "Sendbird(센드버드)",
+				"role": "Cloud Security Engineer",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			},
+			{
+				"companyIndex": 3,
+				"companyName": "매드업",
+				"role": "백엔드 개발자",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			},
+			{
+				"companyIndex": 4,
+				"companyName": "백패커(idus)",
+				"role": "안드로이드 개발자",
+				"location": "서울∙한국",
+				"compensation": "채용보상금: 1,000,000원"
+			}
+		]
+	}
+]

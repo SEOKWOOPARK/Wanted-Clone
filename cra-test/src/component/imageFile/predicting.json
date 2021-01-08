@@ -1,0 +1,123 @@
+[
+	{
+		"index": 1,
+		"companyCover": 2,
+		"companyName": "블루오션",
+		"role": "풀스택 개발자",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalPage": "https://www.wanted.co.kr/wd/43876?referer_id=1188125",
+		"detailPage": {
+			"introduction": " 국내 기준 그 어떤 업체보다 앞서 프롭테크 기반 3세대 공유경제 시장을 준비, 자산의 유동화 프로젝트  플랫폼을 개발하고 있습니다.",
+			"mainRole": [
+										"풀스택 개발", 
+										"Javascipt/TypeScript", 
+										"Node Server 및 Frontend Web 개발"
+									],
+			"qualification": [
+												"Amazon Web Service를 사용한 서버 개발 경험",
+												"2년이상 Node.js (Express, Koa)등 백엔드 프레임워크 개발 경험",
+												"RDB 개발 경험"
+											],
+			"preference": [
+											"GIT, JIRA 등 코드 버전도구에 대한 활용이 가능하신 분", 
+											"Docker 등 서버 설정 및 구성 경험",
+											"개발 관련 의사소통 가능한 영어 구사자"
+										],
+			"merit": ["무제한 커피 제공", "최고 수준의 장비", "수평적 문화"]
+		}
+	},
+	{
+		"index": 2,
+		"companyCover": 2,
+		"companyName": "오늘의 집",
+		"role": "상품 리스크 매니저",
+		"location": "서울 ∙ 한국",
+		"compensation": "채용보상금 1,000,000원",
+		"originalPage": "https://www.wanted.co.kr/wd/47316?referer_id=1188125",
+		"detailPage": {
+			"introduction": "우리는 NO.1 원스톱 인테리어 플랫폼 [오늘의집]을 통해 집을 꾸미는 방식을 새롭게 정의합니다. 인테리어와 관련된 모든 서비스 영역을 온라인으로 제공하고 있습니다.",
+			"mainRole": [
+									 "영업팀과의 커뮤니케이션",
+									 "검수 기능 오픈 및 관리",
+									 "대외기관 요청에 의한 소명자료 제작"
+									],
+			"qualification": [
+												"이커머스 또는 오픈마켓 분야의 3년 이상의 경력",
+												"법 전공 또는 유사 부서에서 근무한 경력이 있으신 분"
+											 ],
+			"preference": [
+											"해당 업무 경력자 우대", 
+											"MS Office 활용자 우대"
+										],
+			"merit": [
+								"편할 때 출근해요, 시차출퇴근제 운영(7시~11시)", 
+								"원하는 곳에서 일해요, 재택근무제 운영", 
+								"리프레시 휴가 지원"
+							 ]
+		}
+	},	
+	{
+		"index": 3,
+		"companyCover": 2,
+		"companyName": "마이셀럽스",
+		"role": "프로덕트 디자이너",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalPage": "https://www.wanted.co.kr/wd/46843?referer_id=1188125",
+		"detailPage": {
+			"introduction": "best company",
+			"mainRole": [
+										"기존 서비스 개선",
+										"정성적/정량적 데이터 기반의 UX 설계",
+										"심미적/직관적인 UI 디자인 설계"
+									],
+			"qualification": [
+												"4년 이상의 웹 모바일 UX 디자인 경험",
+												"논리적 사고, 데이터 기반의 디자인을 할 수 있는 분",
+												"Skech, Figma, invision 등 디자인 툴에 능숙"
+											 ],
+			"preference": [
+											"데이터 시각화/VUX에 관심이 많은 분", 
+											"모바일 앱(ios, Andriod), 웹(GUI) 디자인 유경험자",
+											"주어진 일보다는 주도적으로 일하기를 좋아하는 분"
+										],
+			"merit": [
+								"월별 도서 구입비 지원 및 세미나 지원", 	
+								"3년 근속자 해외여행 지원",
+								"스톡옵션 제도"
+							 ]
+		}
+	},
+	{
+		"index": 4,
+		"companyCover": 2,
+		"companyName": "로플렛",
+		"role": "모바일 앱 서비스 마케터",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalPage": "https://www.wanted.co.kr/wd/50864?referer_id=1188125",
+		"detailPage": {
+			"introduction": "로플랫은 Offline Data, 위치 기술에서 선두적인 역할을 하고 있는 스타트업 입니다. 위치 정보와 관련하여국내 최고의 기술을 만들어 갑니다.",
+			"mainRole": [
+										"자사 모바일 앱 캐시플레이스의 광고 기획 및 집행",
+										"광고 콘텐츠 및 필요한 이벤트 기획 및 제작",
+										"전반적인 서비스 운영과 공식 온라인 채널 운영"
+									],
+			"qualification": [
+												"앱 서비스 운영과 마케팅에 대한 높은 이해와 관심이 있는 분",
+												"원활한 커뮤니케이션 능력으로 팀원들과 협업할 수 있는 분"
+											 ],
+			"preference": [
+											"전반적인 앱 서비스 운영 경험이 있는 분", 
+											"데이터 분석툴 사용 경험이 있는 분(GA, Firebase)",
+											"리워드 앱, 앱테크에 관심이 많은 분"
+										],
+			"merit": [
+								"명절 상품권 지급", 	
+								"커피머신, 간식 무한 업데이트",
+								"점심 및 저녁 식사 제공"
+							 ]
+		}
+	}
+]

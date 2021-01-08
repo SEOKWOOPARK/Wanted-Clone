@@ -1,0 +1,125 @@
+[
+	{
+		"index": 1,
+		"companyCover": 2,
+		"companyName": "비트나인",
+		"role": "프론트엔드 개발자",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalSource": "https://www.wanted.co.kr/wd/50827?referer_id=1188125",
+		"detailPage": {
+			"introduction": "비트나인은 연구개발 분야로 그래프데이터베이스 엔진개발을 위한 그래프 질의 처리 최적화 기술, 그래프 데이터 인덱싱 기술 등을 연구하고 있습니다.",
+			"mainRole": [
+										"프론트엔드 개발", 
+										"Graph Database 데이터 시각화" 
+									],
+			"qualification": [
+												"ES6 능숙하게 사용 가능한 분",
+												"css 및 css framework 사용 경험자",
+												"module bundler 사용 경험자"
+											 ],
+			"preference": [
+											"linux, docker, rxJS 사용 가능 우대", 
+											"최신 기술에 대한 탐구욕과 성취욕이 강하신 분"
+										],
+			"merit": [
+									"종합 건강검진 지원", 
+									"워크샵, 사내동호회 활동 지원", 
+									"4대보험, 퇴직금, 연차, 반차"
+							 ]
+		}
+	},
+	{
+		"index": 2,
+		"companyCover": 2,
+		"companyName": "클래스 101",
+		"role": "어학클래스 MD",
+		"location": "서울 ∙ 한국",
+		"compensation": "채용보상금 1,000,000원",
+		"originalSource": "https://www.wanted.co.kr/wd/50599?referer_id=1188125",
+		"detailPage": {
+			"introduction": "우리는 ’누구나 사랑하는 일을 하며 살 수 있도록’이라는 미션으로 온라인 클래스 플랫폼 ‘클래스 101’을 운영하고 있습니다. ",
+			"mainRole": [
+									 "어학 클래스 기획",
+									 "크리에이터 섭외",
+									 "어학 교육 분야 시장 조사"
+									],
+			"qualification": [
+												"어학 또는 e-러닝 분야 관련 업무 3년 이상",
+												"상품 기획부터 판매까지 직접 경험한 분",
+												"MS Office, Google docs 사용 능력 중급 이상인 분"
+											 ],
+			"preference": [
+											"숫자와 데이터에 민감하신 분", 
+											"어학, 커리어 개발에 관심이 많으신 분"
+										],
+			"merit": [
+								"식대 및 간식 지원", 
+								"기념일 특별 휴가: 가족과 보내는 시간은 소중합니다", 
+								"외근 및 출장비 지원: 최대한 체력을 아끼고 많은 고민을 해주세요."
+							 ]
+		}
+	},
+	{
+		"index": 3,
+		"companyCover": 2,
+		"companyName": "인터스텔라",
+		"role": "HR 담당자",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalSource": "https://www.wanted.co.kr/wd/14614?referer_id=1188125",
+		"detailPage": {
+			"introduction": "해당 포지션은 인사(인사기획, 평가, 보상, 채용)등의 업무를 담당, 함께 진행해주실 경력직을 채용하고 있습니다.",
+			"mainRole": [
+										"인사 기획 및 운영",
+										"조직문화 개발",
+										"평가/보상 시스템 운영 및 개선"
+									],
+			"qualification": [
+												"해당 경력 7년 이상",
+												"리더 역할 수행 경험"
+											 ],
+			"preference": [
+											"최신 HR 트렌드와 조직문화에 통찰력이 있는 분", 
+											"커뮤니케이션 능숙자",
+											"최신 HR 트렌드와 조직문화에 통찰력이 있는 분"
+										],
+			"merit": [
+								"통신비: 매월 통신비를 지원합니다", 	
+								"건강검진: 종합검진을 지원합니다",
+								"명절선물: 뜻깊은 명절을 위해 명절선물을 지급합니다."
+							 ]
+		}
+	},
+	{
+		"index": 4,
+		"companyCover": 2,
+		"companyName": "에이모",
+		"role": "Data Analyst",
+		"location": "seoul, korea",
+		"compensation": "채용보상금 1,000,000원",
+		"originalSource": "https://www.wanted.co.kr/wd/49140?referer_id=1188125",
+		"detailPage": {
+			"introduction": "에이모 HIG(Human Intelligence Group)는 AI 제품개발을 위한 학습데이터 구축 프로젝트의 품질을 총괄합니다.",
+			"mainRole": [
+										"프로젝트 진행 중 발생하는 기술이슈 대응",
+										"리소스 데이터 및 산출물 데이터(json, xml) 관리",
+										"기타 프로젝트 진행에 필요한 IT 업무 지원"
+									],
+			"qualification": [
+												"꼼꼼하고 세심한 업무성향",
+												"기본적인 데이터 처리 및 분석이 가능한 Python 활용능력"
+											 ],
+			"preference": [
+											"반복적인 업무 자동화가 가능한 수준의 Python 활용 능력", 
+											"AI 관련 프로젝트 수행경험",
+											"ML 라이브러리 활용 경험"
+										],
+			"merit": [
+								"합리적인 연봉 및 혜택 제공", 	
+								"업무 장비 지원",
+								"사내 휴식 공간 제공"
+							 ]
+		}
+	}
+]

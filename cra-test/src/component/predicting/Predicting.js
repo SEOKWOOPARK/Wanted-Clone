@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import PredictingUnit from './PredictingUnit';
-import predict from '../imageFile/predicting.json'
+import React from 'react';
+import PredictingUpload from './PredictingUpload';
+import './Predict.css';
 
 function Predicting(){
 	return (
 		<div>
-			<PredictingUnit props={predict}/>
+			<PredictingUpload />
 		</div>
 	);
 }
 
-export default Predicting
+export default Predicting;

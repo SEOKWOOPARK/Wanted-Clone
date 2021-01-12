@@ -1,14 +1,14 @@
 [
 	{
 		"index": 1,
-		"companyCover": 2,
+		"companyCover": "https://static.wanted.co.kr/images/company/5866/ybrxcwjipvezlmel__400_400.jpg",
 		"companyName": "비트나인",
 		"role": "프론트엔드 개발자",
 		"location": "seoul, korea",
 		"compensation": "채용보상금 1,000,000원",
 		"originalSource": "https://www.wanted.co.kr/wd/50827?referer_id=1188125",
 		"detailPage": {
-			"introduction": "비트나인은 연구개발 분야로 그래프데이터베이스 엔진개발을 위한 그래프 질의 처리 최적화 기술, 그래프 데이터 인덱싱 기술 등을 연구하고 있습니다.",
+			"introduction": "비트나인은 연구개발 분야로 그래프 데이터베이스 엔진 개발을 위한 그래프 질의 처리 최적화 기술, 그래프 데이터 인덱싱 기술 등을 연구하고 있습니다.",
 			"mainRole": [
 										"프론트엔드 개발", 
 										"Graph Database 데이터 시각화" 
@@ -31,7 +31,7 @@
 	},
 	{
 		"index": 2,
-		"companyCover": 2,
+		"companyCover": "https://static.wanted.co.kr/images/company/3257/arga8orgrzn1zc1k__1080_790.jpg",
 		"companyName": "클래스 101",
 		"role": "어학클래스 MD",
 		"location": "서울 ∙ 한국",
@@ -62,7 +62,7 @@
 	},
 	{
 		"index": 3,
-		"companyCover": 2,
+		"companyCover": "https://static.wanted.co.kr/images/company/615/12973_2_0.0e7d7729__400_400.jpg",
 		"companyName": "인터스텔라",
 		"role": "HR 담당자",
 		"location": "seoul, korea",
@@ -93,7 +93,7 @@
 	},
 	{
 		"index": 4,
-		"companyCover": 2,
+		"companyCover": "https://static.wanted.co.kr/images/company/316/kg0ekrnenn4myrzl__1080_790.jpg",
 		"companyName": "에이모",
 		"role": "Data Analyst",
 		"location": "seoul, korea",

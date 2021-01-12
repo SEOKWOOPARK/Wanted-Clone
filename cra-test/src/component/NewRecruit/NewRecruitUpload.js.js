@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PredictingUnit({props}){
+function NewRecuritUnit({props}){
 	return (
 		<div className="predict_area">
 			<img
@@ -20,16 +20,16 @@ function PredictingUnit({props}){
 	);
 }
 
-function PredictingUpload({props}){
-	const unit = props;
+function NewRecruitUpload({props}){
+	const unit = props
 
 	return (
 		<ul className="prediction">
 			{unit.map(unitValue => (
-				<li><PredictingUnit props={unitValue}/></li>
+				<li><NewRecuritUnit props={unitValue}/></li>
 			))}
 		</ul>
 	);
 }
 
-export default PredictingUpload;
+export default NewRecruitUpload;

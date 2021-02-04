@@ -1,9 +1,9 @@
 import React from 'react';
 
-function button({props}){
+function Button({props}){
 	return (
 		<div>{props}</div>
 	);
 }
 
-export default button;
+export default Button;

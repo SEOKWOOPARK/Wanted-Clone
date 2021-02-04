@@ -19,8 +19,8 @@ function ApplyingZone({props}){
 								</li>
 							</ul>
 					</div>
-					<button>북마크하기</button>
-					<button>지원자</button>
+					<button onClick={(e) => alert('북마크')}>북마크하기</button>
+					<button onClick={(e) => alert('지원')}>지원자</button>
 					<div></div>
 				</header>
 			</div>

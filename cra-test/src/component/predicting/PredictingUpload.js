@@ -7,7 +7,7 @@ function PredictingUnit({props}){
 			<Link
 				className="link"
 				to={{
-					pathname : `/companyName/${props.companyName}`,
+					pathname: `/companyName/${props.companyName}`,
 					state: {
 						id: props.index,
 						companyCover: props.companyCover,

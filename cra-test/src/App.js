@@ -11,7 +11,7 @@ function App() {
     <div>
 			<HashRouter>
 				<Navigation />
-				<AddingResume />
+				{/* <AddingResume /> */}
 				{/* <CardView /> */}
 				<Route path="/" exact={true} component={CardView} />
 				<Route path="/companyName/:id" component={Detail}/>

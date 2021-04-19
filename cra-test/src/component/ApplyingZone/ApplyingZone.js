@@ -3,8 +3,8 @@ import './ApplyingZone.css'
 
 function ApplyingZone({props}){
 	return (
-		<aside className="aside_area">
-			<div className="aside_div">
+        <aside className="aside_area">
+            <div className="aside_div">
 				<header className="aside_header">
 					<div>
 						<h3>채용보상금</h3>
@@ -23,8 +23,8 @@ function ApplyingZone({props}){
 					<button onClick={(e) => alert('지원')}>지원자</button>
 					<div></div>
 				</header>
-			</div>
-		</aside>
+            </div>
+        </aside>
 	);
 }
 

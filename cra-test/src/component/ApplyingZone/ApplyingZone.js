@@ -2,7 +2,7 @@ import React from 'react';
 import './ApplyingZone.css'
 
 function ApplyingZone({props}){
-	return (
+  return (
     <aside className="aside_area">
       <div className="aside_div">
         <header className="aside_header">
@@ -25,7 +25,7 @@ function ApplyingZone({props}){
         </header>
       </div>
     </aside>
-	);
+  );
 }
 
 export default ApplyingZone;

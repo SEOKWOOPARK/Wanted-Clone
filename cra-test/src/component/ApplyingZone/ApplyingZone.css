@@ -1,17 +1,17 @@
 .aside_area{
-	width: 70%;
-	border: 1px solid black;
+    width: 70%;
+    border: 1px solid black;
 }
 
 .aside_header{
-	padding: 20px;
+    padding: 20px;
 }
 
 .aside_compensation{
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 li{
-	list-style: none;
+    list-style: none;
 }

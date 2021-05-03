@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ApplyingZone from './component/ApplyingZone/ApplyingZone';
+import './Detail.css';
 
 class Detail extends Component {
     componentDidMount(){
@@ -15,20 +16,20 @@ class Detail extends Component {
                 <div className="detail_page">
                     <div>
                         <div>
-                            <img src={location.state.companyCover} alt=""/>
+                            <img src={location.state.companyCover} alt="" />
                         </div>
-                        <div>
-                            <h2>{location.state.companyName}</h2>
-                            <br />
+                        <div className="job_description">
                             <h2>{location.state.role}</h2>
                             <br />
-                            <h2>{location.state.compensation}</h2>
+                            <div>{location.state.companyName}</div>
+                            <br />
+                            <section>{location.state.detailPage.introduction}</section>
                             <br />
                             <h2>{location.state.detailPage.mainRole}</h2>
                         </div>
                         </div>
                     <div>
-                        <ApplyingZone props={location.state}/>
+                        <ApplyingZone className="applying_button" props={location.state}/>
                     </div>
                 </div>
             );

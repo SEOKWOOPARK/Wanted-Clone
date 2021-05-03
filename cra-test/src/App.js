@@ -7,17 +7,17 @@ import CardView from './component/CardView.js';
 
 
 function App() {
-  return (
-    <div>
-			<HashRouter>
-				<Navigation />
-				{/* <AddingResume /> */}
-				{/* <CardView /> */}
-				<Route path="/" exact={true} component={CardView} />
-				<Route path="/companyName/:id" component={Detail}/>
-			</HashRouter>
-    </div>
-  );
+    return (
+        <div>
+            <HashRouter>
+                <Navigation />
+                {/* <AddingResume /> */}
+                {/* <CardView /> */}
+                <Route path="/" exact={true} component={CardView} />
+                <Route path="/companyName/:id" component={Detail}/>
+            </HashRouter>
+        </div>
+    );
 }
 
 export default App;

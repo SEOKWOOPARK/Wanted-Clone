@@ -1,0 +1,22 @@
+.detail_page{
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.detail_page img{
+	height: 480px;
+	width: auto;
+}
+
+.detail_page .job_description{
+	padding-top: 40px;
+	font-size: 17px;
+	width: 75%
+}
+
+.detail_page .applying_button{
+	border: 1px thin red ;
+}
+
+

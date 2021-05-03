@@ -1,34 +1,34 @@
 [
-	{
-		"index": 1,
-		"companyCover": "https://static.wanted.co.kr/images/company/5866/ybrxcwjipvezlmel__400_400.jpg",
-		"companyName": "비트나인",
-		"role": "프론트엔드 개발자",
-		"location": "seoul, korea",
-		"compensation": "채용보상금 1,000,000원",
-		"originalSource": "https://www.wanted.co.kr/wd/50827?referer_id=1188125",
-		"detailPage": {
-			"introduction": "비트나인은 연구개발 분야로 그래프 데이터베이스 엔진 개발을 위한 그래프 질의 처리 최적화 기술, 그래프 데이터 인덱싱 기술 등을 연구하고 있습니다.",
-			"mainRole": [
-										"프론트엔드 개발", 
-										"Graph Database 데이터 시각화" 
-									],
-			"qualification": [
-												"ES6 능숙하게 사용 가능한 분",
-												"css 및 css framework 사용 경험자",
-												"module bundler 사용 경험자"
-											 ],
-			"preference": [
-											"linux, docker, rxJS 사용 가능 우대", 
-											"최신 기술에 대한 탐구욕과 성취욕이 강하신 분"
-										],
-			"merit": [
-									"종합 건강검진 지원", 
-									"워크샵, 사내동호회 활동 지원", 
-									"4대보험, 퇴직금, 연차, 반차"
-							 ]
-		}
-	},
+    {
+        "index": 1,
+        "companyCover": "https://static.wanted.co.kr/images/company/5866/ybrxcwjipvezlmel__400_400.jpg",
+        "companyName": "비트나인",
+        "role": "프론트엔드 개발자",
+        "location": "seoul, korea",
+        "compensation": "채용보상금 1,000,000원",
+        "originalSource": "https://www.wanted.co.kr/wd/50827?referer_id=1188125",
+        "detailPage": {
+            "introduction": "비트나인은 연구개발 분야로 그래프 데이터베이스 엔진 개발을 위한 그래프 질의 처리 최적화 기술, 그래프 데이터 인덱싱 기술 등을 연구하고 있습니다.",
+            "mainRole": [
+                            "프론트엔드 개발", 
+                            "Graph Database 데이터 시각화" 
+                        ],
+            "qualification": [
+                                "ES6 능숙하게 사용 가능한 분",
+                                "css 및 css framework 사용 경험자",
+                                "module bundler 사용 경험자"
+                             ],
+            "preference": [
+                                "linux, docker, rxJS 사용 가능 우대", 
+                                "최신 기술에 대한 탐구욕과 성취욕이 강하신 분"
+                          ],
+            "merit": [
+                        "종합 건강검진 지원", 
+                        "워크샵, 사내동호회 활동 지원", 
+                        "4대보험, 퇴직금, 연차, 반차"
+                     ]
+        }
+    },
 	{
 		"index": 2,
 		"companyCover": "https://static.wanted.co.kr/images/company/3257/arga8orgrzn1zc1k__1080_790.jpg",

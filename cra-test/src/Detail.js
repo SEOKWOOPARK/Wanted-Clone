@@ -11,6 +11,7 @@ class Detail extends Component {
     }
     render(){
         const {location} = this.props;
+        const roleArray = location.state.detailPage.mainRole;
         if (location.state){
             return (
                 <div className="detail_page">
@@ -25,7 +26,9 @@ class Detail extends Component {
                             <br />
                             <section>{location.state.detailPage.introduction}</section>
                             <br />
-                            <h2>{location.state.detailPage.mainRole}</h2>
+                            <h2>
+                                {roleArray.map}
+                            </h2>
                         </div>
                         </div>
                     <div>

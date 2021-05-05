@@ -12,11 +12,26 @@
 .detail_page .job_description{
 	padding-top: 40px;
 	font-size: 17px;
-	width: 75%
+	width: 75%;
 }
 
 .detail_page .applying_button{
 	border: 1px thin red ;
 }
 
+.detail_page .job_roles{
+	/* display: flex;
+	flex-direction: column; */
+	border: 1px solid orange;
+}
+
+.detail_page .job_preference{
+	display: block;
+}
+
+.detail_page .job_description ul{
+	display: flex;
+	flex-direction: column;
+	/* list-style: none; */
+}
 

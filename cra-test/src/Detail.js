@@ -2,6 +2,22 @@ import React, {Component} from 'react';
 import ApplyingZone from './component/ApplyingZone/ApplyingZone';
 import './Detail.css';
 
+function printingList(arr){
+    const input = arr;
+    return (
+        <ul>
+            {input.map((i) => {
+                return (
+                    <div>
+                        <div>- {i}</div>
+                        <br />
+                    </div>
+                );
+            })}
+        </ul>
+    );
+}
+
 class Detail extends Component {
     componentDidMount(){
         const {location, history} = this.props;
@@ -11,7 +27,7 @@ class Detail extends Component {
     }
     render(){
         const {location} = this.props;
-        const roleArray = location.state.detailPage.mainRole;
+        
         if (location.state){
             return (
                 <div className="detail_page">
@@ -26,11 +42,24 @@ class Detail extends Component {
                             <br />
                             <section>{location.state.detailPage.introduction}</section>
                             <br />
-                            <h2>
-                                {roleArray.map}
-                            </h2>
+                            <div className="job_roles">
+                                <h3>주요 업무</h3>
+                                {printingList(location.state.detailPage.mainRole)}
+                            </div>
+                            <div className="job_qualification">
+                                <h3>자격 요건</h3>
+                                {printingList(location.state.detailPage.qualification)}
+                            </div>
+                            <div className="job_preference">
+                                <h3>우대 사항</h3>
+                                {printingList(location.state.detailPage.preference)}
+                            </div>
+                            <div className="job_merit">
+                                <h3>혜택 및 복지</h3>
+                                {printingList(location.state.detailPage.merit)}
+                            </div>
                         </div>
-                        </div>
+                    </div>
                     <div>
                         <ApplyingZone className="applying_button" props={location.state}/>
                     </div>

@@ -6,7 +6,7 @@
 }
 
 .aside_header{
-    padding: 20px;
+    padding: 15px;
 }
 
 .aside_compensation{
@@ -16,13 +16,37 @@
     list-style: none;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    overflow: hidden;
+.aside_area .aside_button{
+    justify-content: center;
 }
 
-li{
-    display: list-item;
-    text-align: left;
+.aside_button{
+    margin-top: 15px;
+}
+
+.aside_button button{
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.aside_button .aside_apply{
+    margin-top: 10px;
+}
+
+.aside_area h4{
+    color: #999;
+}
+
+
+.aside_area ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.aside_area ul li p{
+    margin-top: -15px;
 }

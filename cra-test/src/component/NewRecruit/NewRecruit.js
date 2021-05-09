@@ -6,7 +6,7 @@ import './NewRecruit.css';
 function NewRecruit(){
     return (
         <div className="predict_pass_expected">
-            <h2 className="section_name">새로운 채용</h2>
+            <h3 className="section_name">새로운 채용</h3>
             <NewRecuritUpload props={newrecruit}/>
         </div>
     );

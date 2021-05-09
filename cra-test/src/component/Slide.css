@@ -1,0 +1,11 @@
+.slide_area{
+    margin-top: 40px;
+    /* position: relative; */
+    cursor: pointer;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    /* margin: auto; */
+}

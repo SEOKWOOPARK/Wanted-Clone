@@ -1,53 +1,40 @@
 a{
-	text-decoration: inherit;
-  cursor: pointer;
+    text-decoration: inherit;
+    cursor: pointer;
 }
-.resume{
-	height: 90px;
-	width: 75%;
-	margin: auto;
-	display: block;
-	position: relative;
-	padding-right: 30px;
-	padding-left: 30px;
-	max-width: 1060px;
-	background: #258bf7;
-	border-radius: 3px;
+.adding_resume{
+    align-items: center;
+    height: 90px;
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background: #258bf7;
+    border-radius: 3px;
 }
-h3{
-	display: flex;
-	-webkit-box-align: center;
-	align-items: center;
-	padding-right: 225px;
-	color: white;
-	font-size: 18px;
-	font-weight: 400;
-}
+
 p{
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
-/* .adding_resume{
-	color: white;
-	font-size: 15px;
-	background-color: #4580DE;
-	width: 75%;
-	margin: auto;
-	height: 80px;
-	display: flex;
-	margin-top: 50px;
-	border-radius: 5px;
-} */
 
 .adding_resume .btn{
-	background-color: #ffffff;
-	color: #4580DE;
-	font-size: 15px;
-	height: 50%;
+    /* width: 700px; */
+    background-color: #ffffff;
+    color: #4580DE;
+    font-size: 15px;
+    height: 50%;
+    font-weight: 600;
 }
-.resume .comment{
-	display: inline-block;
-	line-height: 1.4;
+.adding_resume .comment{
+    top: 50%;
+    display: inline-block;
+    line-height: 1.4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }

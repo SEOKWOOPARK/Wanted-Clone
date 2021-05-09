@@ -6,7 +6,7 @@ import './WeeklyRecommanding.css';
 function WeeklyRecommanding(){
 	return (
 		<div className="predict_pass_expected">
-			<h2 className="section_name">금주의 추천</h2>
+			<h3 className="section_name">금주의 추천</h3>
 			<WeeklyRecommandingUpload props={weeklyrecommading}/>
 		</div>
 	);

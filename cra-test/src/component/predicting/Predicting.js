@@ -6,7 +6,7 @@ import './Predict.css';
 function Predicting(){
 	return (
 		<div className="predict_pass_expected">
-			<h2 className="section_name">합격예측 포지션</h2>
+			<h3 className="section_name">합격예측 포지션</h3>
 			<PredictingUpload props={predict}/>
 		</div>
 	);

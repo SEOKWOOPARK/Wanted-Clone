@@ -1,12 +1,57 @@
 .detail_page{
+	/* position: relative; */
 	width: 75%;
+	/* display: flex;
+	justify-content: space-between; */
 	margin: auto;
 	margin-top: 20px;
 }
 
+/* .detail_introduction{
+	float: left;
+} */
+
+.detail_page h2{
+	color: #333;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.detail_page h6{
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.75;
+}
+
+.detail_page .job_companyname{
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+	margin-top: -16px;
+}
+
+.detail_page .detail_introduction{
+	width: 100%;
+	/* float: left; */
+}
+
+.job_description .job_start{
+	width: 85%;
+	line-height: 1.5;
+}
+
+.detail_page section{
+	line-height: 1;
+}
+
 .detail_page img{
-	height: 480px;
+	/* height: 480px; */
+	padding: 0;
+	height: 500px;
 	width: auto;
+	margin: auto;
+	border-radius: 5px;
 }
 
 .detail_page .job_description{
@@ -16,7 +61,12 @@
 }
 
 .detail_page .applying_button{
-	border: 1px thin red ;
+	/* padding: 0;
+	margin: 0; */
+	float: left;
+	border: 1px thin orange;
+	border-radius: 5px;
+	/* float: left; */
 }
 
 .detail_page .job_preference{
@@ -24,8 +74,9 @@
 }
 
 .detail_page .job_description ul{
-	display: flex;
-	flex-direction: column;
+	/* display: flex; */
+	/* flex-direction: column; */
 	padding-left: 0px;
 }
+
 

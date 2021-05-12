@@ -1,0 +1,83 @@
+.writing_resume{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 650px;
+    margin: auto;
+}
+
+.writing_resume .aside_profile{
+    border: 2px solid #000000;
+    /* width: 80%; */
+    /* margin: auto; */
+    align-items: center;
+    height: 400px;
+}
+
+.writing_resume .matchup_status{
+    width: 250px;
+}
+
+.writing_resume .matchup_form{
+    width: 790px;
+    border: 1px solid gainsboro;
+}
+
+.aside_me_name{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aside_image{
+    width: 100px;
+    height: 100px;
+    border: 1.5px solid #000000;
+    border-radius: 100%;
+    opacity: 0.1;
+    text-align: center;
+    top: 50%;
+    color: #000000;
+}
+
+.matchup_form{
+    padding: 25px;
+}
+
+.matchup_form .matchup_education{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.matchup_form .matchup_education input{
+    width: 600px;
+}
+
+.matchup_form .matchup_company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.matchup_form .matchup_company input{
+    width: 600px;
+}
+
+.matchup_form .matchup_company .matchup_company_status{
+    display: block;
+}
+
+.matchup_form label{
+    padding-top: 45px;
+}
+
+label .matchup_fillout{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#simple_intro{
+    /* position: absolute; */    
+    width: 738px;
+    height: 250px;
+}

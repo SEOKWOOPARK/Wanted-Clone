@@ -7,16 +7,16 @@ import AddingResume from './profileResume/addingResume.js';
 import WritingResume from './WritingResume/WritingResume.js'
 
 function CardView(){
-	return (
-		<div>
-			<WritingResume />
-			<CarouselContainer />
-			<AddingResume />
-			<Predicting />
-			<WeeklyRecommanding />
-			<NewRecruit />
-		</div>
-	);
+    return (
+        <div>
+            <CarouselContainer />
+            <AddingResume />
+            <Predicting />
+            <WeeklyRecommanding />
+            <NewRecruit />
+            <WritingResume />
+        </div>
+    );
 }
 
 export default CardView;

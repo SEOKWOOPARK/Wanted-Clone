@@ -31,38 +31,44 @@ class Detail extends Component {
         if (location.state){
             return (
                 <div className="detail_page">
-                    <div>
-                        <div>
-                            <img src={location.state.companyCover} alt="" />
-                        </div>
+                    <div className="detail_introduction">
+                        <img src={location.state.companyCover} alt="" />
                         <div className="job_description">
                             <h2>{location.state.role}</h2>
                             <br />
-                            <div>{location.state.companyName}</div>
+                            <div className="job_companyname">{location.state.companyName}</div>
                             <br />
-                            <section>{location.state.detailPage.introduction}</section>
+                            <div className="job_start">{location.state.detailPage.introduction}</div>
                             <br />
                             <div className="job_roles">
-                                <h3>주요 업무</h3>
-                                {printingList(location.state.detailPage.mainRole)}
+                                <h6>주요 업무</h6>
+                                <section>
+                                    {printingList(location.state.detailPage.mainRole)}
+                                </section>
                             </div>
                             <div className="job_qualification">
-                                <h3>자격 요건</h3>
-                                {printingList(location.state.detailPage.qualification)}
+                                <h6>자격 요건</h6>
+                                <section>
+                                    {printingList(location.state.detailPage.qualification)}
+                                </section>
                             </div>
                             <div className="job_preference">
-                                <h3>우대 사항</h3>
-                                {printingList(location.state.detailPage.preference)}
+                                <h6>우대 사항</h6>
+                                <section>
+                                    {printingList(location.state.detailPage.preference)}
+                                </section>
                             </div>
                             <div className="job_merit">
-                                <h3>혜택 및 복지</h3>
-                                {printingList(location.state.detailPage.merit)}
-                            </div>
-                        </div>
+                                <h6>혜택 및 복지</h6>
+                                <section>
+                                    {printingList(location.state.detailPage.merit)}
+                                </section>
+                            </div>    
+                        </div>        
                     </div>
                     <div>
                         <ApplyingZone className="applying_button" props={location.state}/>
-                    </div>
+                    </div>        
                 </div>
             );
         }else{

@@ -4,18 +4,49 @@
     width: 75%;
     height: 650px;
     margin: auto;
+    margin-top: 30px;
+}
+
+.writing_resume .aside_avatar{
+    /* display: inline; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.aside_avatar .aside_image{
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.aside_avatar .aside_me{
+    margin-top: 20px;
 }
 
 .writing_resume .aside_profile{
-    border: 2px solid #000000;
-    /* width: 80%; */
-    /* margin: auto; */
-    align-items: center;
+    border: 1px solid gainsboro;
     height: 400px;
 }
 
-.writing_resume .matchup_status{
+.matchup_status{
+    margin-top: 50px;
     width: 250px;
+    padding-left: 18px;
+    padding-right: 18px;
+    /* width: 80%; */
+    /* margin: auto; */
+}
+
+.aside_profile .matchup_status div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.aside_profile .matchup_status .matchup_status_number{
+    font-weight: 600;
 }
 
 .writing_resume .matchup_form{
@@ -77,7 +108,8 @@ label .matchup_fillout{
 }
 
 #simple_intro{
-    /* position: absolute; */    
+    /* position: absolute; */
+    border: 1px solid gainsboro;    
     width: 738px;
     height: 250px;
 }

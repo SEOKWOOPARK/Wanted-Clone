@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ApplyingZone from './component/ApplyingZone/ApplyingZone';
 import './Detail.css';
 
-function printingList(arr){
-    const input = arr;
+function printingList(array){
+    const input = array;
     return (
         <ul>
             {input.map((i) => {
@@ -21,8 +21,12 @@ function printingList(arr){
 class Detail extends Component {
     componentDidMount(){
         const {location, history} = this.props;
+        const [previous] = [location.state]
+        
         if (location.state === undefined){
             history.push('/');
+        }else if(location.state !== previous){
+            history.push(`/companyName/${location.state}`);
         }
     }
     render(){
@@ -72,7 +76,7 @@ class Detail extends Component {
                 </div>
             );
         }else{
-            return null;
+            return 'rendering is impossible';
         }	
     }
 }

@@ -8,6 +8,7 @@ function PredictingUnit({props}){
             <Link
                 className="link"
                 to={{
+                    // pathname: `/companyName/${props.companyName}`,
                     pathname: `/companyName/${props.companyName}`,
                     state: {
                         id: props.index,
@@ -34,7 +35,7 @@ function PredictingUnit({props}){
                     <div className="job_location">{props.location}</div>
                     <div className="job_compensation">{props.compensation}</div>
                 </div>
-                </Link>
+            </Link>
         </div>
     );
 }

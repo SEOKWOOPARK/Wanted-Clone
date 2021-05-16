@@ -1,24 +1,36 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './ApplyingZone.css'
+import {createStore, applyMiddleware} from 'redux';
+
+const applyedList = [];
 
 function ApplyingZone({props}){
-    // useEffect(() => {
-    //     alert(`${props.companyName} - ${props.role} 공고`);
-    // }, [props.companyName]);
-
+    const date = new Date(); // 지원한 시간
+    
+    // const bookmarkedList = [];
     const [apply, setApply] = useState('지원하기');
     const [bookmark, setBookmark] = useState('북마크하기');
 
     const applyFunc = (e) => {
         if(apply === '지원하기'){
             setApply('지원 완료');
-            e.target.style.color = 'blue';
+            e.target.style.color = 'hsla(0,0%,100%,.5)';
+            e.target.style.backgroundColor = '#999';
+            e.target.style.border = '#999';
+            applyedList.push(
+                {
+                    companyName: props.companyName,
+                    role: props.role,
+                    time: date,
+                }
+            );
         }else if(apply === '지원 완료'){
             setApply('지원하기');
-            e.target.style.color = 'red';
             e.target.style.backgroundColor = '#36f';
+            e.target.style.color = '#fff';
+            applyedList.pop();
         }
-        console.log(`현재 상태는 ${e.target.innerText}`);
+        console.log(applyedList);
     }
 
     const bookmarkFunc = (e) => {
@@ -27,9 +39,7 @@ function ApplyingZone({props}){
             e.target.style.color = 'blue';
         }else if(bookmark === '북마크 완료'){
             setBookmark('북마크하기');
-            e.target.style.color = 'red';
         }
-        console.log(`현재 상태는 ${e.target.innerText}`);
     }
 
     return (
@@ -43,11 +53,11 @@ function ApplyingZone({props}){
                             <ul>
                                 <li>
                                     <h4>추천인</h4>
-                                    <p><b>{props.compensation.slice(6)}</b></p>
+                                    <p>{props.compensation.slice(6)}</p>
                                 </li>
                                 <li>
                                     <h4>지원자</h4>
-                                    <p><b>{props.compensation.slice(6)}</b></p>                
+                                    <p>{props.compensation.slice(6)}</p>                
                                 </li>
                             </ul>
                         </div>
@@ -55,14 +65,13 @@ function ApplyingZone({props}){
                         <div className="aside_button">
                             <button className="aside_bookmark_button" onClick={bookmarkFunc} >{bookmark}</button>
                             <button className="aside_apply_button" onClick={applyFunc}>{apply}</button>
-                        </div>
-                            
+                        </div>        
                     </header>
                 </div>
-            </aside>
-            
+            </aside>    
         </div>
   );
 }
 
 export default React.memo(ApplyingZone);
+export {applyedList};

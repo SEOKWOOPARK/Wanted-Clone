@@ -15,11 +15,12 @@ a{
     border-radius: 3px;
 }
 
-p{
+.adding_resume p{
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    justify-content: center;
 }
 
 .adding_resume .btn{

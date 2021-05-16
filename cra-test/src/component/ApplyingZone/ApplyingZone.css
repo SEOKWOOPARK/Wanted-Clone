@@ -8,6 +8,23 @@
     margin-left: -340px;
 }
 
+.aside_area h3{
+    color: #333;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.aside_area h4{
+    color: #999;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.aside_area .aside_compensation{
+    margin-top: 30px;
+}
+
 .aside_header{
     padding: 15px;
 }
@@ -22,24 +39,22 @@
 }
 
 .aside_button{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .aside_button button{
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     height: 50px;
     width: 100%;
+    border: 1.8px solid #36f;
     border-radius: 30px;
 }
 
 .aside_button .aside_apply{
     margin-top: 10px;
 }
-
-.aside_area h4{
-    color: #999;
-}
-
 
 .aside_area ul{
     display: flex;
@@ -48,10 +63,19 @@
     padding-left: 0px;
 }
 
-.aside_area ul li p{
-    margin-top: -15px;
+.aside_area p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
 }
 
 .aside_button .aside_bookmark_button{
     color: #36f;
+    background-color: #fff;
+}
+
+.aside_button .aside_apply_button{
+    color: #fff;
+    background-color: #36f;
+    margin-top: 8px;
 }

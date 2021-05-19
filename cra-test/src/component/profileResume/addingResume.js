@@ -1,5 +1,5 @@
 import React from 'react';
-import './resume.css';
+import './AddingResume.css';
 import {Link} from 'react-router-dom';
 
 function AddingResume(){

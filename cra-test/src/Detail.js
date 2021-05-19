@@ -21,12 +21,9 @@ function printingList(array){
 class Detail extends Component {
     componentDidMount(){
         const {location, history} = this.props;
-        const [previous] = [location.state]
         
         if (location.state === undefined){
             history.push('/');
-        }else if(location.state !== previous){
-            history.push(`/companyName/${location.state}`);
         }
     }
     render(){

@@ -1,0 +1,55 @@
+.apply_bookmark_page{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.apply_bookmark_page h4{
+    font-weight: 600;
+}
+
+.apply_bookmark_page h5{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.apply_bookmark_page .apply_company_list{
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.apply_bookmark_page .bookmark_company_list{
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.apply_bookmark_page .apply_company{
+    width: 100%;
+    margin-top: 15px;
+    margin-right: 1px;
+    padding: 0;
+    /* display: flex; */
+}
+
+.apply_bookmark_page .bookmark_company{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.apply_bookmark_page .bookmark_company li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.apply_bookmark_page .apply_company li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    align-items: flex-end;
+}

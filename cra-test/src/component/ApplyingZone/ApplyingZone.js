@@ -1,15 +1,26 @@
-import React, { useState } from 'react';
-import './ApplyingZone.css'
+import React, { useState, useEffect } from 'react';
+import './ApplyingZone.css';
 import {createStore, applyMiddleware} from 'redux';
 
 const applyedList = [];
+const bookmarkedList = [];
 
 function ApplyingZone({props}){
-    const date = new Date(); // 지원한 시간
+    // const [apply, setApply] = useState(() =>
+    //     JSON.parse(window.localStorage.getItem("apply")) || "지원하기" 
+    // );
     
-    // const bookmarkedList = [];
-    const [apply, setApply] = useState('지원하기');
+    // const [bookmark, setBookmark] = useState(() => 
+    //     JSON.parse(window.localStorage.getItem("bookmark")) || "북마크하기"
+    // );
+
+    // useEffect(() => {
+    //     window.localStorage.setItem("bookmark", JSON.stringify(bookmark));
+    //     window.localStorage.setItem("apply", JSON.stringify(apply));
+    // }, [bookmark, apply ])
+    
     const [bookmark, setBookmark] = useState('북마크하기');
+    const [apply, setApply] = useState('지원하기');
 
     const applyFunc = (e) => {
         if(apply === '지원하기'){
@@ -20,8 +31,10 @@ function ApplyingZone({props}){
             applyedList.push(
                 {
                     companyName: props.companyName,
+                    companyCover: props.companyCover,
                     role: props.role,
-                    time: date,
+                    compensation: props.compensation,
+                    location: props.location,
                 }
             );
         }else if(apply === '지원 완료'){
@@ -37,8 +50,23 @@ function ApplyingZone({props}){
         if(bookmark === '북마크하기'){
             setBookmark('북마크 완료');
             e.target.style.color = 'blue';
+            const bookmarkObj = {
+                companyName: props.companyName,
+                companyCover: props.companyCover,
+                role: props.role,
+                compensation: props.compensation,
+                location: props.location,
+            }
+            if(bookmarkedList.indexOf(bookmarkObj) === -1){
+                bookmarkedList.push(bookmarkObj);
+            }            
         }else if(bookmark === '북마크 완료'){
             setBookmark('북마크하기');
+            for(let i = 0; i < bookmarkedList.length; i++){
+                if(bookmarkedList[i].companyName === props.companyName){
+                    bookmarkedList.splice(i, 1);                    
+                }
+            }
         }
     }
 
@@ -73,5 +101,5 @@ function ApplyingZone({props}){
   );
 }
 
-export default React.memo(ApplyingZone);
-export {applyedList};
+export default ApplyingZone;
+export {applyedList, bookmarkedList};

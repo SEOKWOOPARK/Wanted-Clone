@@ -1,15 +1,10 @@
 .detail_page{
-	/* position: relative; */
 	width: 75%;
-	/* display: flex;
-	justify-content: space-between; */
 	margin: auto;
 	margin-top: 20px;
+	/* display: flex; */
+	justify-content: space-between;
 }
-
-/* .detail_introduction{
-	float: left;
-} */
 
 .detail_page h2{
 	color: #333;

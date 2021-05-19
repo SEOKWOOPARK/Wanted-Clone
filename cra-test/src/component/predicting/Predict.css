@@ -18,15 +18,15 @@
 }
 
 .predict_body{
-	padding-top: 10px;
+	margin-top: 10px;
 }
 
 .predict_area .predict_body .job_role{
-	position: relative;
+	position: absolute;
 	font-size: 18px;
 	font-weight: 750;
 	color: #333;
-	padding-bottom: 15px;
+	margin-bottom: -10px;
 }
 
 .predict_area .predict_body .job_company_name{

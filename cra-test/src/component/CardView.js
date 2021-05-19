@@ -1,6 +1,6 @@
 import React from 'react';
-import Predicting from './predicting/Predicting.js';
-import WeeklyRecommanding from './weeklyrecommand/WeeklyRecommanding';
+import Predicting from './Predicting/Predicting.js';
+import WeeklyRecommanding from './WeeklyRecommand/WeeklyRecommanding';
 import NewRecruit from './NewRecruit/NewRecruit.js';
 
 function CardView(){

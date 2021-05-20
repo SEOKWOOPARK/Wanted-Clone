@@ -6,19 +6,6 @@ const applyedList = [];
 const bookmarkedList = [];
 
 function ApplyingZone({props}){
-    // const [apply, setApply] = useState(() =>
-    //     JSON.parse(window.localStorage.getItem("apply")) || "지원하기" 
-    // );
-    
-    // const [bookmark, setBookmark] = useState(() => 
-    //     JSON.parse(window.localStorage.getItem("bookmark")) || "북마크하기"
-    // );
-
-    // useEffect(() => {
-    //     window.localStorage.setItem("bookmark", JSON.stringify(bookmark));
-    //     window.localStorage.setItem("apply", JSON.stringify(apply));
-    // }, [bookmark, apply ])
-    
     const [bookmark, setBookmark] = useState('북마크하기');
     const [apply, setApply] = useState('지원하기');
 
@@ -69,6 +56,10 @@ function ApplyingZone({props}){
             }
         }
     }
+
+    useEffect(() => {
+        console.log('북마크, 지원 상태 변화');
+    }, [apply, bookmark])
 
     return (
         <div>

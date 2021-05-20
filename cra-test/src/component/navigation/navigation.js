@@ -17,9 +17,12 @@ function navigation(){
                 </ul>
             </nav>
             <Link to="/apply_bookmark">
-                <button type="button" className="apply_bookmark">지원 및 북마크</button>
+                
+                    <button type="button" className="apply_bookmark">
+                        지원 및 북마크
+                    </button>
+                
             </Link>
-            
         </div>
     );
 }

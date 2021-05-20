@@ -1,3 +1,8 @@
+nav{
+    margin: auto;
+    font-weight: bold;
+}
+
 .navigation_tab{
     width: 75%;
     margin: auto;
@@ -5,32 +10,45 @@
     color: #000000;
     font-size: 20px;
     display: flex;
+    /* align-items: center; */
+}
+
+.navigation_tab h2{
+    /* margin-top: px; */
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .navigation_tab .apply_bookmark{
-    font-size: 14px;
+    margin: auto;
+    margin-top: -35px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    height: 50px;
     width: 100%;
     border: 1.8px solid #36f;
     border-radius: 30px;
-    /* margin-left: -50px; */
+    height: 36px;
+    /* vertical-align: middle; */
+    background-color: #ffffff;
+    align-items: center;
 }
 
-nav{
-    margin: auto;
-    /* display: flex; */
-    justify-content: space-between;
-    font-size: 14px;
-    font-weight: bold;
+.navigation_tab ul{
+    margin: 0;
     text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-top: -10px;
+    height: inherit;
+    /* display: block; */
+    
 }
 
-.navigation_tab nav li{
+.navigation_tab ul li{
+    height: 100%;
     display: inline-block;
+    vertical-align: middle;
     margin-right: 30px;
+    font-size: 16px;
 }
+
 
